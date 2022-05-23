@@ -1,5 +1,5 @@
 {
-  "name": "vue-sticky",
+  "name": "vue-sticky-ssr",
   "version": "3.3.4",
   "description": "A directive to sticky element for vue.js.",
   "main": "./dist/vue-sticky.js",

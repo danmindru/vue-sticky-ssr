@@ -18,9 +18,15 @@ const getInitialiConfig = el => {
 }
 
 const unwatch = () => {
+  if(!window) {
+    return
+  }
   window.removeEventListener('scroll', listenAction)
 }
 const watch = () => {
+  if(!window) {
+    return
+  }
   window.addEventListener('scroll', listenAction)
 }
 
